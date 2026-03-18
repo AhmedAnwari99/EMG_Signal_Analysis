@@ -9,7 +9,7 @@ from evaluation import evaluate_model, plot_confusion_matrix, plot_decision_tree
 import os
 os.environ["LOKY_MAX_CPU_COUNT"] = "4"  # or your CPU core count
 
-BASE_PATH = r"C:\Users\Anwari\Downloads\EMG_analysis\EMG_Signal_Analysis-main\git\dataset"  # change this
+BASE_PATH = r"C:\Users\Anwari\Downloads\git1\EMG_Signal_Analysis-main\EMG_analysis\EMG_Signal_Analysis\dataset"  
 
 def run_pipeline(X, y):
     X_train, X_test, y_train, y_test = split_and_scale(X, y)
